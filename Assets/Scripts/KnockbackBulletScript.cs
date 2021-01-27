@@ -5,14 +5,21 @@ using UnityEngine;
 public class KnockbackBulletScript : MonoBehaviour
 {
     public float speed = 100f;
+
     private float lifeTime = 10f;
+
     private Transform tf;
+
     private Rigidbody rb;
+
     private Rigidbody rbPlayer;
+
     private Vector3 dir;
+
     private GameObject player;
 
     public float knockbackForce;
+
     public float knockbackRadius;
 
     void Start()
@@ -53,5 +60,4 @@ public class KnockbackBulletScript : MonoBehaviour
             }
         }
     }
-    //collision.transform.gameObject.layer == LayerMask.NameToLayer("Player")
 }

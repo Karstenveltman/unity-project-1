@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class EnemyBulletScript : MonoBehaviour
 {
-    public float speed = 100f;
+    public float speed;
+
     private float lifeTime = 10f;
+
     private Transform tf;
+
     private Rigidbody rb;
+
     private Vector3 dir;
+
     private PlayerHealth playerHealth;
 
     void Start()

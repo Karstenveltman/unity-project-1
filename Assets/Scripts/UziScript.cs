@@ -14,12 +14,6 @@ public class UziScript : MonoBehaviour
 
     public float Ammo = 100;
 
-    private float BulletsPerShot = 18;
-
-    private float ShotSpread = 3.0f;
-
-    private float test = 2.0f;
-
     public float perShotDelay = 0.1f;
 
     private float timestamp = 0.0f;

@@ -5,9 +5,13 @@ using UnityEngine;
 public class BulletScript : MonoBehaviour
 {
     public float speed = 100f;
+
     private float lifeTime = 10f;
+
     private Transform tf;
+
     private Rigidbody rb;
+
     private Vector3 dir;
 
     void Start()
