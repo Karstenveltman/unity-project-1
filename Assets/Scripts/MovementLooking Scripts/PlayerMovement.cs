@@ -32,15 +32,5 @@ public class PlayerMovement : MonoBehaviour
          Vector3 moveDir = (transform.right * InputSide + transform.forward * InputForward) * speed;
 
          rb.velocity = new Vector3(moveDir.x, rb.velocity.y, moveDir.z);
-
-         if (Input.GetKeyDown("space"))
-         {
-           Jump();
-         }
-    }
-
-    void Jump()
-    {
-      rb.velocity = new Vector3(rb.velocity.x, jumpVelocity, rb.velocity.z);
     }
 }
